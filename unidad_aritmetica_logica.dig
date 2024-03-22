@@ -189,10 +189,6 @@
         </label>
       </shape>
     </entry>
-    <entry>
-      <string>showDataTable</string>
-      <boolean>true</boolean>
-    </entry>
   </attributes>
   <visualElements>
     <visualElement>
