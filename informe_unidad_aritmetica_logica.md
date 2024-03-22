@@ -1,4 +1,4 @@
-# Informe de Desarrollo de una Unidad Aritmetico Lógica (ALU) de 16 bit
+# Informe de Desarrollo de una Unidad Aritmética Lógica (ALU) de 16 bit
 
 Electrónica IV - TP - Automatismos y Máquinas Elementales
 

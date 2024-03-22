@@ -6,8 +6,8 @@ Este trabajo práctico (TP) debe realizarse en modalidad *individual*.
 
 Para completar con éxito este trabajo práctico deberás
 
-1. Diseñar y observar el funcionamiento de un automatismo de control de bomba de agua
-2. Diseñar y observar el funcionamiento de una máquina elemental que realiza las operaciones suma, resta, and, or y negación
+1. Diseñar y observar el funcionamiento de un control de bomba de agua
+2. Diseñar y observar el funcionamiento de una unidad aritmética lógica
 3. Comunicar tus resultados mediante informes (modelo en apéndice)
 
 ## 2. Requisitos
@@ -29,10 +29,10 @@ En este repositorio encontrarás los siguientes documentos.
 1. `readme.md` Este documento
 2. `informe_control_bomba.md` Informe de desarrollo del controlador de bomba de agua
 3. `control_bomba.dig` Esquemático del controlador de bomba de agua que debes completar
-4. `informe_unidad_aritmetico_logica.md` Informe de desarrollo de la unidad aritmetico lógica
-5. `unidad_aritmetico_logica.dig` Esquemático de la unidad aritmetico logica que debes completar
+4. `informe_unidad_aritmetica_logica.md` Informe de desarrollo de la unidad aritmética lógica
+5. `unidad_aritmetica_logica.dig` Esquemático de la unidad aritmética logica que debes completar
 6. `sim_control_bomba.dig` Esquemático con simulación para observar el funcionamiento del controlador de bomba de agua
-7. `sim_unidad_aritmetico_logica.dig` Esquemático con simulación para observar el funcionamiento de la máquina elemental
+7. `sim_unidad_aritmetica_logica.dig` Esquemático con simulación para observar el funcionamiento de la máquina elemental
 8. `bomba.dig` Componente auxiliar para simulación
 9. `tanque.dig` Componente auxiliar para simulación
 
@@ -57,9 +57,9 @@ El objetivo del sistema de control es mantener el nivel del tanque de agua entre
 
 Debes *implementar el controlador* en el esquemático `control_bomba.dig`. La simulación `sim_control_bomba.dig` demuestra el funcionamiento del controlador en una simulación interactiva. Debes *completar el informe* `informe_control_bomba.md` explicando el proceso seguido, bibliografía consultada y resultados obtenidos.
 
-## 5. Unidad Aritmetico Lógica (ALU)
+## 5. Unidad aritmética Lógica (ALU)
 
-La unidad aritmetico lógica (ALU por su sigla en inglés) es un circuito lógico que permite realizar operaciones aritméticas y lógicas. En nuestro caso entre señales binarias de dieciseis bit. La Tabla 5-1 muestra las señales de entrada y salida de la ALU.
+La unidad aritmética lógica (ALU por su sigla en inglés) es un circuito lógico que permite realizar operaciones aritméticas y lógicas. En nuestro caso entre señales binarias de dieciseis bit. La Tabla 5-1 muestra las señales de entrada y salida de la ALU.
 
 Tabla 5-1: Señales de entrada y salida de la ALU
 
@@ -94,9 +94,9 @@ Tabla 5-2: Modos de operación
 | 0     | 1      | 1   | $A \wedge B$      |
 | 1     | 1      | 1   | $A \wedge \bar{B}$|
 
-### 5.1. Objetivos Para Unidad Aritmetico Logica
+### 5.1. Objetivos Para Unidad aritmética Logica
 
-Debes *implementar la ALU* en el esquemático `unidad_aritmetico_logica.dig`. La simulación `sim_unidad_aritmetico_logica.dig` demuestra el funcionamiento de la ALU en forma interactiva. Debes *completar el informe* en `informe_unidad_aritmetico_logica.md` explicando el proceso seguido, la bibliografía consultada y los resultados obtenidos.
+Debes *implementar la ALU* en el esquemático `unidad_aritmetica_logica.dig`. La simulación `sim_unidad_aritmetica_logica.dig` demuestra el funcionamiento de la ALU en forma interactiva. Debes *completar el informe* en `informe_unidad_aritmetica_logica.md` explicando el proceso seguido, la bibliografía consultada y los resultados obtenidos.
 
 ## 6. Entrega
 
