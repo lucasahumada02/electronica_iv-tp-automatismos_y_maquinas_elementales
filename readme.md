@@ -67,7 +67,7 @@ Tabla 5-1: Señales de entrada y salida de la ALU
 |-------|-----------|-------------------|-----------|
 | A     | Entrada   | Vector de 16 bit  | Operando  |
 | B     | Entrada   | Vector de 16 bit  | Operando  |
-| resta | Entrada   | Señal de un bit   | Control   |
+| invB  | Entrada   | Señal de un bit   | Control   |
 | logica| Entrada   | Señal de un bit   | Control   |
 | and   | Entrada   | Señal de un bit   | Control   |
 | R     | Salida    | Vector de 16 bit  | Resultado |
@@ -85,7 +85,7 @@ La Tabla 5-2 muestra las configuraciones de las señales de control que permiten
 
 Tabla 5-2: Modos de operación
 
-| resta | logico | and | resultado         |
+| invB  | logico | and | resultado         |
 |-------|--------|-----|-------------------|
 | 0     | 0      | -   | $A + B$           |
 | 1     | 0      | -   | $A - B$           |
