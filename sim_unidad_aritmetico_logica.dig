@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>unidad_aritmetico_logica.dig</elementName>
+      <elementAttributes/>
+      <pos x="340" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Primer Operando</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>decSigned</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="60" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Segundo Operando</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>B</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>decSigned</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="60" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Aritmética. SI: resta NO: suma
+
+Lógica. SI: niega B</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>resta</string>
+        </entry>
+      </elementAttributes>
+      <pos x="60" y="380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>resta | logica | and | resultado
+
+  0          0       x        (A + B)
+
+  1          0       x        (A - B)
+
+  0          1       0        (A or B)
+
+  1          1       0        (A or not B)
+
+  0          1       1        (A and B)
+
+  1          1       1        (A and not B)</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Resultado</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>decSigned</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>SI: Operación Lógica
+NO: Operación Aritmética</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>logica</string>
+        </entry>
+      </elementAttributes>
+      <pos x="60" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>SI : AND
+NO : OR</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>and</string>
+        </entry>
+      </elementAttributes>
+      <pos x="60" y="460"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="60" y="260"/>
+      <p2 x="340" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="180"/>
+      <p2 x="340" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="420"/>
+      <p2 x="400" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="460"/>
+      <p2 x="420" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="220"/>
+      <p2 x="680" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="380"/>
+      <p2 x="380" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="300"/>
+      <p2 x="400" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="300"/>
+      <p2 x="420" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="300"/>
+      <p2 x="380" y="380"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
