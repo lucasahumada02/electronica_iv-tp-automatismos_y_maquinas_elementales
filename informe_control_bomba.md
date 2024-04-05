@@ -14,7 +14,8 @@ La metodologia de trabajo se baso en hacer una tabla de verdad donde se verifico
 
 El cicuito funciona de forma que mientras cisternaL este apagado la bomba no se puede encender, por lo tanto cuando el nivel de la cisterna suba encendiendo cisternaL y cistenaOK, la bomba se activara de modo automatico si el sensor de tanqueMinimo se encuentra apagado hasta que cistenerOK se apague o tanqueMaximo se encienda.
 El circuito queda de la siguiente forma:
-![control_bomba](https://github.com/lucasahumada02/electronica_iv-tp-automatismos_y_maquinas_elementales/assets/166075187/f9601998-43a3-43a3-90c9-4812e9213d0c)
+![control_bomba](https://github.com/lucasahumada02/electronica_iv-tp-automatismos_y_maquinas_elementales/assets/166075187/bc09281f-e4cb-415d-a0fb-500b36317779)
+
 
 
 ## Conclusiones
