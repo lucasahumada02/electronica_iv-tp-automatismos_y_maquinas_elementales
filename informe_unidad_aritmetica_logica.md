@@ -4,16 +4,18 @@ Electrónica IV - TP - Automatismos y Máquinas Elementales
 
 ## Introducción
 
-> Aquí explicas que función cumple la ALU y cuales son sus características.
+La unidad aritmetica logica se basa en un circuito digital donde se realiza operaciones aritmeticas y logicas con sus valores ingresados en la entrada del mismo.
 
 ## Metodología de trabajo
 
-> Aquí explicas la metodología empleada en el desarrollo, tus consideraciones, compromisos y decisiones de diseño.
+Para la metodologia de trabajo se implemento sumadores, como compuertas logicas y un multiplexor buscando asi mediante tablas de verdad implementarlo en el circuito hecho.
 
 ## Resultados
 
-> Aquí explicas los resultados obtenidos, puedes incluir una imagen del esquemático utilizando la forma `![](archivo_de_imagen.png)` donde `archivo_de_imagen.png` es el resultado de usar la función *Archivo->Exportar->Exportar PNG Grande* del simulador. Es recomendable ejecutar y detener la simulación una vez antes de realizar la exportación.
+Primero se opto por utilizar un multiplexor de forma de poder trabajar con la cantidad de bits necesarios segun lo especificado en el enunciado, siguiendo la tabla indicada dependiendo de que entradas tengo entre las variables and, invB y logica, se emplea la operacion necesaria de las entradas de 16 bits A y B.
+El circuito queda formado de la siguiente forma:
+![unidad_aritmetica_logica](https://github.com/lucasahumada02/electronica_iv-tp-automatismos_y_maquinas_elementales/assets/166075187/017af138-b216-494d-a1d9-136bdf8894b4)
 
 ## Conclusiones
 
-> Aquí, usando argumentos basados en lo antes presentado, explicas que tipo de máquina es la ALU que desarrollaste (automatismo, máquina elemental o computadora).
+Podria concluir que se trata de una maquina elemental ya que esta depende de las variables de entradas que yo introduzco para el trabajo y funcionamiento de la misma, utilizado elementos basicos como compuertas logicas y elementos de memoria.
