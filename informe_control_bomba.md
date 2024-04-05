@@ -4,15 +4,16 @@ Electrónica IV - TP - Automatismos y Máquinas Elementales
 
 ## Introducción
 
-> Aquí explicas de que se trata el controlador de bomba de agua, y cuales son sus características.
+El controlador de bomba de agua se trata de una compuerta logica de cuatro entradas donde se busca que active la señal de salida cuando la misma requiera dependiendo de la situacion del tanque de agua y de la cisterna segun los sensores implementados en los mismos. Se trata de dos compuerta AND de dos entradas y una compuerta NAND.
 
 ## Metodología de trabajo
 
-> Aquí explicas la metodología empleada en el desarrollo, tus consideraciones, compromisos y decisiones de diseño.
+La metodologia de trabajo se baso en hacer una tabla de verdad donde se verifico la salida del mismo, osea cuando la bomba deberia estar encendida o apagada. En segundo lugar se opto por hacer un mapa de karnaugh para minimizar el circuito y de esta forma encontrar el circuito final.
 
 ## Resultados
 
-> Aquí explicas los resultados obtenidos, puedes incluir una imagen del esquemático utilizando la forma `![](archivo_de_imagen.png)` donde `archivo_de_imagen.png` es el resultado de usar la función *Archivo->Exportar->Exportar PNG Grande* del simulador. Es recomendable ejecutar y detener la simulación una vez antes de realizar la exportación.
+El cicuito funciona de forma que mientras cisternaL este apagado la bomba no se puede encender, por lo tanto cuando el nivel de la cisterna suba encendiendo cisternaL y cistenaOK, la bomba se activara de modo automatico si el sensor de tanqueMinimo se encuentra apagado hasta que cistenerOK se apague o tanqueMaximo se encienda.
+El circuito queda de la siguiente forma.![](archivo_de_imagen.png)
 
 ## Conclusiones
 
